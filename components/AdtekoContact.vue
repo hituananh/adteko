@@ -159,8 +159,22 @@
                 </div>
                 <div>
                   <div class="font-display text-xs font-semibold uppercase tracking-wider text-stone-400 mb-1">Email</div>
-                  <a href="mailto:info@adteko.com.au" class="font-body text-stone-700 hover:text-brand-700 transition-colors">
-                    info@adteko.com.au
+                  <a href="mailto:contact@adteko.com.au" class="font-body text-stone-700 hover:text-brand-700 transition-colors">
+                    contact@adteko.com.au
+                  </a>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4">
+                <div class="w-8 h-8 border border-brand-200 flex items-center justify-center shrink-0 mt-0.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="text-brand-600">
+                    <path stroke-linecap="square" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="font-display text-xs font-semibold uppercase tracking-wider text-stone-400 mb-1">Phone</div>
+                  <a href="tel:+61422178690" class="font-body text-stone-700 hover:text-brand-700 transition-colors">
+                    0422 178 690
                   </a>
                 </div>
               </div>

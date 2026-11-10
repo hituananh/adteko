@@ -71,7 +71,7 @@
 <script setup>
 const currentYear = new Date().getFullYear()
 // Set the ABN here (e.g. '12 345 678 901'); the line stays hidden while empty.
-const abn = ''
+const abn = '12 695 996 073'
 
 const footerServices = [
   'BIM & 3D Visualisation',
