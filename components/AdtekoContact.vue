@@ -109,12 +109,10 @@
                   name="subject"
                   class="w-full px-4 py-3 font-body text-sm border border-stone-200 focus:border-brand-700 focus:outline-none focus:ring-1 focus:ring-brand-700 transition-colors bg-white text-stone-600 appearance-none"
                 >
-                  <option value="" disabled>Select a service</option>
-                  <option>Technical Consulting</option>
-                  <option>Steel Detailing</option>
-                  <option>Project Management</option>
-                  <option>Procurement</option>
-                  <option>Greenhouse / Tunnel Solutions</option>
+                  <option value="" disabled>Select a division</option>
+                  <option>BIM &amp; 3D Visualisation</option>
+                  <option>Building &amp; Farming Supplies</option>
+                  <option>Engineering &amp; Project Advisory</option>
                   <option>General Enquiry</option>
                 </select>
               </div>
@@ -167,19 +165,6 @@
                 </div>
               </div>
 
-              <div class="flex items-start gap-4">
-                <div class="w-8 h-8 border border-brand-200 flex items-center justify-center shrink-0 mt-0.5">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="text-brand-600">
-                    <path stroke-linecap="square" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
-                  </svg>
-                </div>
-                <div>
-                  <div class="font-display text-xs font-semibold uppercase tracking-wider text-stone-400 mb-1">Phone</div>
-                  <a href="tel:+61400000000" class="font-body text-stone-700 hover:text-brand-700 transition-colors">
-                    Contact us for phone details
-                  </a>
-                </div>
-              </div>
 
               <div class="flex items-start gap-4">
                 <div class="w-8 h-8 border border-brand-200 flex items-center justify-center shrink-0 mt-0.5">
@@ -204,7 +189,7 @@
             <p class="font-body text-sm text-stone-600 leading-relaxed">
               ADTEKO provides services <strong class="text-stone-800">Australia-wide</strong>.
               Whether you're located in metro or regional areas, we are available to support
-              your project from initial assessment through to completion.
+              your project from first drawing to final delivery.
             </p>
           </div>
 

@@ -12,169 +12,104 @@
         </div>
         <h2 class="font-display font-bold text-brand-900 uppercase leading-tight"
             style="font-size: clamp(2rem, 4vw, 3rem);">
-          Our Services
+          Our Divisions
         </h2>
         <p class="font-body text-stone-500 mt-4 leading-relaxed">
-          From technical assessments to procurement and project management, ADTEKO delivers
-          targeted expertise across five core service areas.
+          ADTEKO operates through three focused divisions: BIM and 3D visualisation,
+          building and farming supplies, and engineering advisory led by our founder.
         </p>
       </div>
 
-      <!-- Services grid: 2 large + 3 smaller -->
+      <!-- Divisions grid: 3 cards, same card style as before -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-brand-200">
-
-        <!-- Service 01 -->
-        <div class="bg-white p-8 lg:p-10 group hover:bg-brand-700 transition-colors duration-300 md:col-span-2 lg:col-span-1">
+        <a
+          v-for="(division, index) in divisions"
+          :key="division.title"
+          :href="division.href"
+          :class="[
+            'bg-white p-8 lg:p-10 group hover:bg-brand-700 transition-colors duration-300 flex flex-col',
+            index === 2 ? 'md:col-span-2 lg:col-span-1' : ''
+          ]"
+        >
           <div class="flex items-start justify-between mb-6">
-            <span class="font-display text-4xl font-bold text-brand-200 group-hover:text-white/20 transition-colors leading-none">01</span>
+            <span class="font-display text-4xl font-bold text-brand-200 group-hover:text-white/20 transition-colors leading-none">
+              {{ String(index + 1).padStart(2, '0') }}
+            </span>
             <div class="w-8 h-8 border border-brand-200 group-hover:border-white/30 flex items-center justify-center transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="text-brand-400 group-hover:text-white/50 transition-colors">
                 <path stroke-linecap="square" d="M7 17L17 7M17 7H7M17 7v10"/>
               </svg>
             </div>
           </div>
+          <span class="font-display text-xs font-semibold uppercase tracking-[0.2em] text-brand-400 group-hover:text-white/50 mb-2 transition-colors">
+            {{ division.label }}
+          </span>
           <h3 class="font-display text-lg font-bold uppercase tracking-wide text-brand-900 group-hover:text-white mb-4 transition-colors leading-tight">
-            Technical Consulting &amp; Engineering Advisory
+            {{ division.title }}
           </h3>
-          <ul class="space-y-2">
-            <li v-for="point in services[0].points" :key="point"
+          <p class="font-body text-sm text-stone-500 group-hover:text-white/65 mb-5 leading-relaxed transition-colors">
+            {{ division.summary }}
+          </p>
+          <ul class="space-y-2 mb-8">
+            <li v-for="point in division.points" :key="point"
                 class="flex items-start gap-2 font-body text-sm text-stone-500 group-hover:text-white/65 transition-colors">
               <span class="mt-1.5 w-1 h-1 rounded-full bg-brand-400 group-hover:bg-white/40 shrink-0 transition-colors"></span>
               {{ point }}
             </li>
           </ul>
-        </div>
-
-        <!-- Service 02 -->
-        <div class="bg-white p-8 lg:p-10 group hover:bg-brand-700 transition-colors duration-300">
-          <div class="flex items-start justify-between mb-6">
-            <span class="font-display text-4xl font-bold text-brand-200 group-hover:text-white/20 transition-colors leading-none">02</span>
-            <div class="w-8 h-8 border border-brand-200 group-hover:border-white/30 flex items-center justify-center transition-colors">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="text-brand-400 group-hover:text-white/50 transition-colors">
-                <path stroke-linecap="square" d="M7 17L17 7M17 7H7M17 7v10"/>
-              </svg>
-            </div>
-          </div>
-          <h3 class="font-display text-lg font-bold uppercase tracking-wide text-brand-900 group-hover:text-white mb-4 transition-colors leading-tight">
-            Steel Detailing &amp; Drafting
-          </h3>
-          <ul class="space-y-2">
-            <li v-for="point in services[1].points" :key="point"
-                class="flex items-start gap-2 font-body text-sm text-stone-500 group-hover:text-white/65 transition-colors">
-              <span class="mt-1.5 w-1 h-1 rounded-full bg-brand-400 group-hover:bg-white/40 shrink-0 transition-colors"></span>
-              {{ point }}
-            </li>
-          </ul>
-        </div>
-
-        <!-- Service 03 -->
-        <div class="bg-white p-8 lg:p-10 group hover:bg-brand-700 transition-colors duration-300">
-          <div class="flex items-start justify-between mb-6">
-            <span class="font-display text-4xl font-bold text-brand-200 group-hover:text-white/20 transition-colors leading-none">03</span>
-            <div class="w-8 h-8 border border-brand-200 group-hover:border-white/30 flex items-center justify-center transition-colors">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="text-brand-400 group-hover:text-white/50 transition-colors">
-                <path stroke-linecap="square" d="M7 17L17 7M17 7H7M17 7v10"/>
-              </svg>
-            </div>
-          </div>
-          <h3 class="font-display text-lg font-bold uppercase tracking-wide text-brand-900 group-hover:text-white mb-4 transition-colors leading-tight">
-            Project Management Support
-          </h3>
-          <ul class="space-y-2">
-            <li v-for="point in services[2].points" :key="point"
-                class="flex items-start gap-2 font-body text-sm text-stone-500 group-hover:text-white/65 transition-colors">
-              <span class="mt-1.5 w-1 h-1 rounded-full bg-brand-400 group-hover:bg-white/40 shrink-0 transition-colors"></span>
-              {{ point }}
-            </li>
-          </ul>
-        </div>
-
-        <!-- Service 04 -->
-        <div class="bg-white p-8 lg:p-10 group hover:bg-brand-700 transition-colors duration-300">
-          <div class="flex items-start justify-between mb-6">
-            <span class="font-display text-4xl font-bold text-brand-200 group-hover:text-white/20 transition-colors leading-none">04</span>
-            <div class="w-8 h-8 border border-brand-200 group-hover:border-white/30 flex items-center justify-center transition-colors">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="text-brand-400 group-hover:text-white/50 transition-colors">
-                <path stroke-linecap="square" d="M7 17L17 7M17 7H7M17 7v10"/>
-              </svg>
-            </div>
-          </div>
-          <h3 class="font-display text-lg font-bold uppercase tracking-wide text-brand-900 group-hover:text-white mb-4 transition-colors leading-tight">
-            Cross-Border Procurement &amp; Trading
-          </h3>
-          <ul class="space-y-2">
-            <li v-for="point in services[3].points" :key="point"
-                class="flex items-start gap-2 font-body text-sm text-stone-500 group-hover:text-white/65 transition-colors">
-              <span class="mt-1.5 w-1 h-1 rounded-full bg-brand-400 group-hover:bg-white/40 shrink-0 transition-colors"></span>
-              {{ point }}
-            </li>
-          </ul>
-        </div>
-
-        <!-- Service 05 -->
-        <div class="bg-white p-8 lg:p-10 group hover:bg-brand-700 transition-colors duration-300">
-          <div class="flex items-start justify-between mb-6">
-            <span class="font-display text-4xl font-bold text-brand-200 group-hover:text-white/20 transition-colors leading-none">05</span>
-            <div class="w-8 h-8 border border-brand-200 group-hover:border-white/30 flex items-center justify-center transition-colors">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="text-brand-400 group-hover:text-white/50 transition-colors">
-                <path stroke-linecap="square" d="M7 17L17 7M17 7H7M17 7v10"/>
-              </svg>
-            </div>
-          </div>
-          <h3 class="font-display text-lg font-bold uppercase tracking-wide text-brand-900 group-hover:text-white mb-4 transition-colors leading-tight">
-            Greenhouse / Tunnel Solutions
-          </h3>
-          <ul class="space-y-2">
-            <li v-for="point in services[4].points" :key="point"
-                class="flex items-start gap-2 font-body text-sm text-stone-500 group-hover:text-white/65 transition-colors">
-              <span class="mt-1.5 w-1 h-1 rounded-full bg-brand-400 group-hover:bg-white/40 shrink-0 transition-colors"></span>
-              {{ point }}
-            </li>
-          </ul>
-        </div>
-
+          <span class="mt-auto font-display text-xs font-semibold uppercase tracking-[0.2em] text-brand-700 group-hover:text-white transition-colors">
+            {{ division.cta }} &rarr;
+          </span>
+        </a>
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
-const services = [
+// When the niche websites go live, replace each href with the niche domain
+// (e.g. 'https://<bim-brand>.com.au') — see Claude_Office website plan.
+const divisions = [
   {
+    label: 'Division 01',
+    title: 'BIM & 3D Visualisation',
+    summary:
+      '3D models and photorealistic renders built from your 2D drawings, ready for landlord design approval, client sign-off and franchise roll-outs.',
     points: [
-      'Technical assessments',
-      'Fit-for-purpose recommendations',
-      'Material & specification advisory',
+      'Tenancy design-approval render packs',
+      'Franchise roll-out visualisation',
+      '2D CAD to 3D / BIM modelling',
+      'Coordination and clash review (Navisworks)',
     ],
+    cta: 'Enquire about BIM',
+    href: '#contact',
   },
   {
+    label: 'Division 02',
+    title: 'Building & Farming Supplies',
+    summary:
+      'Direct-import building materials and agricultural structures, sourced and quality-checked at the factory and delivered across NSW and QLD.',
     points: [
-      'Shop drawings',
-      'Fabrication & erection drawings',
-      'Outsourced detailing for Australian firms',
+      'Shade cloth, weed mat and farm supplies',
+      'Greenhouses and tunnel farming systems',
+      'Building and construction materials',
+      'Factory QC, logistics and import coordination',
     ],
+    cta: 'Request a quote',
+    href: '#contact',
   },
   {
+    label: 'Division 03',
+    title: 'Engineering & Project Advisory',
+    summary:
+      'Work directly with our founder on technical assessments, project management support and steel detailing for Australian projects.',
     points: [
-      'Scope clarification (Civil, DRFA, Earthworks)',
-      'Progress & quantity monitoring',
-      'DRFA documentation support',
-      'Earthworks coordination assistance',
+      'Technical assessments and specification advice',
+      'Project management support (civil, DRFA, earthworks)',
+      'Steel detailing and shop drawings',
     ],
-  },
-  {
-    points: [
-      'Sourcing from Vietnam & China',
-      'Factory quality control',
-      'Logistics & import coordination',
-    ],
-  },
-  {
-    points: [
-      'Agricultural tunnels',
-      'Custom sizing & specifications',
-      'Import & delivery management',
-    ],
+    cta: 'Talk to our founder',
+    href: '#contact',
   },
 ]
 </script>

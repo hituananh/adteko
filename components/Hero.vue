@@ -48,7 +48,7 @@
           <span
             class="font-display text-xs font-semibold uppercase tracking-[0.25em] text-white/50"
           >
-            Technical Consulting — Australia-Wide
+            BIM · Supplies · Engineering — Australia-Wide
           </span>
         </div>
 
@@ -70,20 +70,19 @@
 
         <!-- Subtext -->
         <p class="text-base sm:text-lg font-body font-light text-white/65 max-w-lg leading-relaxed">
-          ADTEKO Pty Ltd provides technical consulting, engineering support,
-          procurement, and civil project assistance across Australia.
+          ADTEKO Pty Ltd is an Australian company with three focused divisions: BIM &amp; 3D visualisation, building &amp; farming supplies, and engineering advisory.
         </p>
 
         <!-- CTA buttons -->
         <div class="flex flex-wrap gap-4 mt-10">
           <a
-            href="#contact"
+            href="/#contact"
             class="inline-block px-8 py-4 font-display text-sm font-semibold uppercase tracking-[0.12em] text-brand-700 bg-white hover:bg-brand-50 transition-colors duration-200"
           >
             Contact Us
           </a>
           <a
-            href="#services"
+            href="/#services"
             class="inline-block px-8 py-4 font-display text-sm font-semibold uppercase tracking-[0.12em] text-white border border-white/40 hover:bg-white/10 hover:border-white/70 transition-colors duration-200"
           >
             Our Services
@@ -93,8 +92,8 @@
         <!-- Bottom stats strip -->
         <div class="flex flex-wrap gap-x-12 gap-y-4 mt-16 pt-10 border-t border-white/15">
           <div>
-            <div class="font-display text-2xl font-bold text-white">5+</div>
-            <div class="font-body text-xs font-medium uppercase tracking-wider text-white/45 mt-0.5">Service Areas</div>
+            <div class="font-display text-2xl font-bold text-white">3</div>
+            <div class="font-body text-xs font-medium uppercase tracking-wider text-white/45 mt-0.5">Divisions</div>
           </div>
           <div>
             <div class="font-display text-2xl font-bold text-white">Australia-Wide</div>

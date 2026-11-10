@@ -20,20 +20,13 @@
 
           <div class="space-y-4 font-body text-stone-600 leading-relaxed">
             <p>
-              ADTEKO Pty Ltd is an Australian technical consulting and engineering firm
-              providing practical, fit-for-purpose solutions to clients across a broad range
-              of industries. Based in Coffs Harbour, NSW, we operate Australia-wide.
+              ADTEKO Pty Ltd is an Australian company based in Coffs Harbour, NSW, serving clients Australia-wide. We help builders, shopfitters, designers and growers get projects right the first time.
             </p>
             <p>
-              Our team brings deep technical knowledge across engineering advisory, steel
-              detailing, civil project management, cross-border procurement, and agricultural
-              structures. We combine hands-on engineering experience with transparent communication
-              to deliver measurable value on every engagement.
+              We work through three divisions. Our BIM &amp; 3D visualisation team turns 2D drawings into accurate 3D models and renders. Our supplies division imports building materials and agricultural structures direct from vetted factories. Our founder leads engineering and project advisory work personally.
             </p>
             <p>
-              Clients trust ADTEKO because we prioritise their project outcomes over
-              inflated complexity. We cut through ambiguity, provide actionable recommendations,
-              and stand behind our work.
+              Our modelling and production team is based in Vietnam and works under ADTEKO's Australian management, standards and quality checks. That lets us deliver fast turnarounds at a fair price, with one accountable Australian company behind every job.
             </p>
           </div>
         </div>

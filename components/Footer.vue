@@ -14,22 +14,21 @@
             class="h-12 w-auto mb-5"
           />
           <p class="font-body text-sm text-white/45 leading-relaxed max-w-xs">
-            Technical consulting, engineering support, procurement, and civil project
-            assistance across Australia.
+            BIM &amp; 3D visualisation, building &amp; farming supplies, and engineering advisory across Australia.
           </p>
-          <div class="mt-5 font-body text-xs text-white/30">
-            ABN: [To be confirmed]
+          <div v-if="abn" class="mt-5 font-body text-xs text-white/30">
+            ABN: {{ abn }}
           </div>
         </div>
 
         <!-- Services column -->
         <div>
           <div class="font-display text-xs font-bold uppercase tracking-[0.15em] text-white/50 mb-5">
-            Services
+            Divisions
           </div>
           <ul class="space-y-3">
             <li v-for="service in footerServices" :key="service">
-              <a href="#services"
+              <a href="/#services"
                  class="font-body text-sm text-white/40 hover:text-white/80 transition-colors">
                 {{ service }}
               </a>
@@ -60,7 +59,8 @@
           &copy; {{ currentYear }} ADTEKO Pty Ltd. All rights reserved.
         </p>
         <p class="font-body text-xs text-white/20">
-          Coffs Harbour, NSW — Serving Australia-Wide
+          Coffs Harbour, NSW — Serving Australia-Wide ·
+          <NuxtLink to="/privacy" class="hover:text-white/60 transition-colors">Privacy Policy</NuxtLink>
         </p>
       </div>
 
@@ -70,19 +70,19 @@
 
 <script setup>
 const currentYear = new Date().getFullYear()
+// Set the ABN here (e.g. '12 345 678 901'); the line stays hidden while empty.
+const abn = ''
 
 const footerServices = [
-  'Technical Consulting',
-  'Steel Detailing & Drafting',
-  'Project Management',
-  'Cross-Border Procurement',
-  'Greenhouse / Tunnel Solutions',
+  'BIM & 3D Visualisation',
+  'Building & Farming Supplies',
+  'Engineering & Project Advisory',
 ]
 
 const navLinks = [
-  { label: 'Home', href: '#home' },
-  { label: 'Services', href: '#services' },
-  { label: 'About', href: '#about' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Home', href: '/#home' },
+  { label: 'Divisions', href: '/#services' },
+  { label: 'About', href: '/#about' },
+  { label: 'Contact', href: '/#contact' },
 ]
 </script>

@@ -9,10 +9,10 @@ onMounted(() => {
 })
 
 const navItems = [
-  { label: 'Home', href: '#home' },
-  { label: 'Services', href: '#services' },
-  { label: 'About', href: '#about' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Home', href: '/#home' },
+  { label: 'Divisions', href: '/#services' },
+  { label: 'About', href: '/#about' },
+  { label: 'Contact', href: '/#contact' },
 ]
 </script>
 
@@ -28,7 +28,7 @@ const navItems = [
     <div class="px-5 mx-auto max-w-7xl">
       <div class="flex items-center justify-between h-20">
         <!-- Logo -->
-        <a href="#home" class="flex items-center shrink-0">
+        <a href="/#home" class="flex items-center shrink-0">
           <NuxtImg
             src="/images/logo-light.png"
             alt="ADTEKO Pty Ltd"
@@ -48,7 +48,7 @@ const navItems = [
             {{ item.label }}
           </a>
           <a
-            href="#contact"
+            href="/#contact"
             class="px-6 py-2.5 font-display text-sm font-semibold uppercase tracking-[0.12em] text-white bg-brand-700 hover:bg-brand-800 transition-colors duration-200"
           >
             Get in Touch
@@ -92,7 +92,7 @@ const navItems = [
             {{ item.label }}
           </a>
           <a
-            href="#contact"
+            href="/#contact"
             @click="isMenuOpen = false"
             class="text-center px-6 py-3 font-display text-sm font-semibold uppercase tracking-[0.12em] text-white bg-brand-700 hover:bg-brand-800 transition-colors"
           >
