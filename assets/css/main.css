@@ -1,5 +1,33 @@
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Helvetica", "sans-serif";
+  --font-display: "Barlow Condensed", "sans-serif";
+  --font-body: "Barlow", "sans-serif";
+
+  --color-brand-50: #FAF7F9;
+  --color-brand-100: #F2E8EF;
+  --color-brand-200: #E3CFDC;
+  --color-brand-300: #C9A8C0;
+  --color-brand-400: #A87A9E;
+  --color-brand-500: #8A5181;
+  --color-brand-600: #6F3868;
+  --color-brand-700: #5C1A4E;
+  --color-brand-800: #3D1034;
+  --color-brand-900: #2A0B24;
+  --color-brand-950: #150A12;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: #1C0F18;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
 }
