@@ -68,7 +68,7 @@ useHead({ title: "Privacy Policy — ADTEKO Pty Ltd" });
             You can ask to access or correct your personal information, or make a privacy complaint, by
             emailing <a href="mailto:contact@adteko.com.au" class="text-brand-700 hover:underline">contact@adteko.com.au</a>.
             We will respond within 30 days. If you are not satisfied, you may contact the Office of the
-            Australian Information Commissioner (oaic.gov.au).
+            Australian Information Commissioner at oaic.gov.au.
           </p>
         </div>
       </div>

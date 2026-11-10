@@ -152,7 +152,7 @@ const divisions = [
       '2D CAD to 3D / BIM modelling',
       'Shop drawings and steel detailing',
       'Quantity take-off',
-      'Clash check and coordination (Navisworks)',
+      'Clash detection and model coordination',
     ],
     cta: 'Enquire about BIM',
     href: '/#contact',
