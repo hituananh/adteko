@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-brand-950 pt-16 pb-8">
+  <footer class="pt-16 pb-8" style="background-color: #4A0638;">
     <div class="px-5 mx-auto max-w-7xl">
 
       <!-- Top row: logo + nav -->

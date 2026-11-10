@@ -69,8 +69,13 @@
         </div>
 
         <!-- Subtext -->
-        <p class="text-base sm:text-lg font-body font-light text-white/65 max-w-lg leading-relaxed">
-          ADTEKO Pty Ltd is an Australian company with three focused divisions: BIM &amp; 3D visualisation, building &amp; farming supplies, and project &amp; contract management.
+        <div class="font-display text-xs font-semibold uppercase tracking-[0.2em] text-white/50 mb-3">
+          Our Vision
+        </div>
+        <p class="text-base sm:text-lg font-body font-light text-white/75 max-w-xl leading-relaxed">
+          To be the trusted right hand of every client we serve: guaranteeing the quality of every
+          service and every product we deliver, and giving you the capacity to scale whenever you
+          need to, without the risk.
         </p>
 
         <!-- CTA buttons -->
