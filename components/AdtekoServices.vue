@@ -141,10 +141,12 @@ const divisions = [
   {
     label: 'Division 01',
     title: 'BIM & 3D Visualisation',
-    tagline: 'Accurate 3D models, renders and shop drawings built from your 2D drawings, delivered fast.',
+    tagline: 'Built on the Autodesk ecosystem with licensed software and an experienced BIM team.',
     summary:
-      '3D models, renders, shop drawings and take-offs built from your 2D drawings, ready for landlord approval, fabrication and construction.',
+      'We work end to end in the Autodesk ecosystem, using fully licensed Revit, AutoCAD and Navisworks. Our experienced BIM team turns your 2D drawings into accurate 3D models, renders, shop drawings and take-offs, ready for landlord approval, fabrication and construction, in native formats your consultants can open and reuse.',
     points: [
+      'Licensed Autodesk Revit, AutoCAD and Navisworks',
+      'Experienced BIM modellers and detailers',
       'Tenancy design-approval render packs',
       'Franchise roll-out visualisation',
       '2D CAD to 3D / BIM modelling',
