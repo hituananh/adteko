@@ -6,10 +6,10 @@ useHead({
     {
       name: "description",
       content:
-        "ADTEKO Pty Ltd: BIM & 3D visualisation from 2D drawings, building & farming supplies, and engineering advisory across Australia. Based in Coffs Harbour, NSW.",
+        "ADTEKO Pty Ltd: BIM & 3D visualisation from 2D drawings, building & farming supplies, and project & contract management across Australia. Based in Coffs Harbour, NSW.",
     },
     { property: "og:title", content: "ADTEKO Pty Ltd — Advanced Thinking. Advanced Future." },
-    { property: "og:description", content: "BIM & 3D visualisation, building & farming supplies, and engineering advisory across Australia." },
+    { property: "og:description", content: "BIM & 3D visualisation, building & farming supplies, and project & contract management across Australia." },
     { name: "robots", content: "index, follow" },
     { name: "theme-color", content: "#5C1A4E" },
   ],

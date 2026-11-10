@@ -16,7 +16,7 @@
         </h2>
         <p class="font-body text-stone-500 mt-4 leading-relaxed">
           ADTEKO operates through three focused divisions: BIM and 3D visualisation,
-          building and farming supplies, and engineering advisory led by our founder.
+          building and farming supplies, and project and contract management led by our founder.
         </p>
       </div>
 
@@ -74,12 +74,14 @@ const divisions = [
     label: 'Division 01',
     title: 'BIM & 3D Visualisation',
     summary:
-      '3D models and photorealistic renders built from your 2D drawings, ready for landlord design approval, client sign-off and franchise roll-outs.',
+      '3D models, renders, shop drawings and take-offs built from your 2D drawings, ready for landlord approval, fabrication and construction.',
     points: [
       'Tenancy design-approval render packs',
       'Franchise roll-out visualisation',
       '2D CAD to 3D / BIM modelling',
-      'Coordination and clash review (Navisworks)',
+      'Shop drawings and steel detailing',
+      'Quantity take-off',
+      'Clash check and coordination (Navisworks)',
     ],
     cta: 'Enquire about BIM',
     href: '#contact',
@@ -100,13 +102,13 @@ const divisions = [
   },
   {
     label: 'Division 03',
-    title: 'Engineering & Project Advisory',
+    title: 'Project & Contract Management',
     summary:
-      'Work directly with our founder on technical assessments, project management support and steel detailing for Australian projects.',
+      'Work directly with our founder to run your project, contracts and tenders, from scope clarification to final handover.',
     points: [
-      'Technical assessments and specification advice',
-      'Project management support (civil, DRFA, earthworks)',
-      'Steel detailing and shop drawings',
+      'Project management',
+      'Contract management and administration',
+      'Tender management and bid preparation',
     ],
     cta: 'Talk to our founder',
     href: '#contact',

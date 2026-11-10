@@ -8,13 +8,13 @@
         <!-- Brand column -->
         <div class="lg:col-span-2">
           <NuxtImg
-            src="/images/logo-dark.png"
+            src="/images/logo-dark-cropped.png"
             alt="ADTEKO Pty Ltd"
-            height="48"
-            class="h-12 w-auto mb-5"
+            height="64"
+            class="h-16 w-auto mb-5"
           />
           <p class="font-body text-sm text-white/45 leading-relaxed max-w-xs">
-            BIM &amp; 3D visualisation, building &amp; farming supplies, and engineering advisory across Australia.
+            BIM &amp; 3D visualisation, building &amp; farming supplies, and project &amp; contract management across Australia.
           </p>
           <div v-if="abn" class="mt-5 font-body text-xs text-white/30">
             ABN: {{ abn }}
@@ -76,7 +76,7 @@ const abn = '12 695 996 073'
 const footerServices = [
   'BIM & 3D Visualisation',
   'Building & Farming Supplies',
-  'Engineering & Project Advisory',
+  'Project & Contract Management',
 ]
 
 const navLinks = [

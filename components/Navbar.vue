@@ -30,10 +30,10 @@ const navItems = [
         <!-- Logo -->
         <a href="/#home" class="flex items-center shrink-0">
           <NuxtImg
-            src="/images/logo-light.png"
+            src="/images/logo-light-cropped.png"
             alt="ADTEKO Pty Ltd"
-            height="48"
-            class="h-12 w-auto"
+            height="64"
+            class="h-14 md:h-16 w-auto"
           />
         </a>
 

@@ -23,7 +23,7 @@
               ADTEKO Pty Ltd is an Australian company based in Coffs Harbour, NSW, serving clients Australia-wide. We help builders, shopfitters, designers and growers get projects right the first time.
             </p>
             <p>
-              We work through three divisions. Our BIM &amp; 3D visualisation team turns 2D drawings into accurate 3D models and renders. Our supplies division imports building materials and agricultural structures direct from vetted factories. Our founder leads engineering and project advisory work personally.
+              We work through three divisions. Our BIM &amp; 3D visualisation team turns 2D drawings into accurate 3D models, renders, shop drawings and take-offs. Our supplies division imports building materials and agricultural structures direct from vetted factories. Our founder personally leads project, contract and tender management.
             </p>
             <p>
               Our modelling and production team is based in Vietnam and works under ADTEKO's Australian management, standards and quality checks. That lets us deliver fast turnarounds at a fair price, with one accountable Australian company behind every job.

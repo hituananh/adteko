@@ -70,7 +70,7 @@
 
         <!-- Subtext -->
         <p class="text-base sm:text-lg font-body font-light text-white/65 max-w-lg leading-relaxed">
-          ADTEKO Pty Ltd is an Australian company with three focused divisions: BIM &amp; 3D visualisation, building &amp; farming supplies, and engineering advisory.
+          ADTEKO Pty Ltd is an Australian company with three focused divisions: BIM &amp; 3D visualisation, building &amp; farming supplies, and project &amp; contract management.
         </p>
 
         <!-- CTA buttons -->

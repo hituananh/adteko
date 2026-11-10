@@ -33,7 +33,7 @@
           class="bg-brand-800/50 hover:bg-brand-800/80 transition-colors duration-300 p-8 lg:p-6 xl:p-8 group"
         >
           <!-- Number -->
-          <div class="font-display text-5xl font-bold text-white/10 group-hover:text-white/15 leading-none mb-4 transition-colors">
+          <div class="font-display text-5xl font-bold text-white leading-none mb-4">
             {{ String(index + 1).padStart(2, '0') }}
           </div>
 
